@@ -32,7 +32,7 @@ public class Assignment3InsuranceQuoteTest
 
     string baseURL = "http://localhost:8080/prog2070a03/";
     [Test]
-    public void assignment3_25_and3and0_Test1()
+    public void assignment3_25and3and0_Test1()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 832);
@@ -307,7 +307,7 @@ public class Assignment3InsuranceQuoteTest
         }
     }
     [Test]
-    public void assignment330and5and1Test11()
+    public void assignment3_30and5and1_Test11()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
@@ -334,7 +334,7 @@ public class Assignment3InsuranceQuoteTest
         }
     }
     [Test]
-    public void assignment345and20and0Test12()
+    public void assignment3_45and20and0_Test12()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(790, 816);
@@ -362,7 +362,7 @@ public class Assignment3InsuranceQuoteTest
         }
     }
     [Test]
-    public void assignment328and6and3Test13()
+    public void assignment3_28and6and3_Test13()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(792, 816);
@@ -391,7 +391,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("lastName-error")).Text, Is.EqualTo("Last Name is required"));
     }
     [Test]
-    public void assignment329and2and0Test14()
+    public void assignment3_29and2and0_Test14()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(795, 816);
@@ -420,7 +420,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("firstName-error")).Text, Is.EqualTo("First Name is required"));
     }
     [Test]
-    public void assignment340and15and2Test15()
+    public void assignment3_40and15and2_Test15()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(798, 816);
