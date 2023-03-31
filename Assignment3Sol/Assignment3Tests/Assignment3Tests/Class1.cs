@@ -32,7 +32,7 @@ public class Assignment3InsuranceQuoteTest
 
     string baseURL = "http://localhost:8080/prog2070a03/";
     [Test]
-    public void assignment325and3and0Test1()
+    public void assignment3_25_and3and0_Test1()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 832);
@@ -67,7 +67,7 @@ public class Assignment3InsuranceQuoteTest
         }
     }
     [Test]
-    public void assignment325and3and4Test2()
+    public void assignment3_25and3and4_Test2()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 832);
@@ -99,7 +99,7 @@ public class Assignment3InsuranceQuoteTest
         }
     }
     [Test]
-    public void assignment335and10and2Test3()
+    public void assignment3_35and10and2_Test3()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 832);
@@ -128,7 +128,7 @@ public class Assignment3InsuranceQuoteTest
         }
     }
     [Test]
-    public void assignment327and3and0Test4()
+    public void assignment3_27and3and0_Test4()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
@@ -151,7 +151,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("phone-error")).Text, Is.EqualTo("Phone Number must follow the patterns 111-111-1111 or (111)111-1111"));
     }
     [Test]
-    public void assignment328and3and0Test5()
+    public void assignment3_28and3and0_Test5()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(790, 816);
@@ -177,7 +177,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("email-error")).Text, Is.EqualTo("Must be a valid email address"));
     }
     [Test]
-    public void assignment335and17and1Test6()
+    public void assignment3_35and17and1_Test6()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
@@ -206,7 +206,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("postalCode-error")).Text, Is.EqualTo("Postal Code must follow the pattern A1A 1A1"));
     }
     [Test]
-    public void assignment3NAand5and0Test7()
+    public void assignment3_NAand5and0_Test7()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
@@ -232,7 +232,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("age-error")).Text, Is.EqualTo("Age (>=16) is required"));
     }
     [Test]
-    public void assignment337and8andNATest8()
+    public void assignment3_37and8andNA_Test8()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
@@ -256,7 +256,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("accidents-error")).Text, Is.EqualTo("Number of accidents is required"));
     }
     [Test]
-    public void assignment345andNAand0Test9()
+    public void assignment3_45andNAand0_Test9()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
@@ -280,7 +280,7 @@ public class Assignment3InsuranceQuoteTest
         Assert.That(driver.FindElement(By.Id("experience-error")).Text, Is.EqualTo("Years of experience is required"));
     }
     [Test]
-    public void assignment322and1and2Test10()
+    public void assignment3_22and1and2_Test10()
     {
         driver.Navigate().GoToUrl(baseURL);
         driver.Manage().Window.Size = new System.Drawing.Size(788, 816);
